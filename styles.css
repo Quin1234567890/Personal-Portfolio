@@ -1,0 +1,113 @@
+@import url("https://fonts.googleleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap");
+/*General Style*/
+*{ box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+   
+h1,
+h2 {
+    font-family: "Times New Roman", cursive;
+    font-weight: bold;
+    color: rgba(133, 154, 240, 0.568);
+}  
+li {list-style-type: none;}
+a {text-decoration: none;}
+a:active {color: rgb(131, 127, 255);}
+
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.links {
+    color: darkcyan;
+    font-family: "pacifico";
+    font-size: 25px;
+}
+
+/* Main */
+
+.bg{
+    background-color: rgb(255, 229, 169);
+}
+
+.vid-con {
+  width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    background-color: rgb(196, 255, 235);
+}
+  
+.about-title {
+    font-size:40px;
+}
+
+.about-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.about-text-con {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 25px;
+}
+
+.about-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: cornflowerblue;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    background-color: rgb(96, 157, 157);
+}
+
+.footer-text{
+    color: coral;
+    font-size: 18px;
+}
+
+/*projects*/
+.title-con {
+    display:flex;
+    justify-content: center;
+}
+
+.gallery-title{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*
+.gallery-con{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-wrap: wrap;
+}
+    */
+    
+.gallery{
+    display: flex;
+    justify-content: center;
+    border: aqua 2px solid;
+    margin: 5px;
+}
+
